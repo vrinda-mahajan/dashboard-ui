@@ -1,11 +1,12 @@
 import "./App.css";
+import Navbar from "./components/navbar";
 import Sidebar from "./components/sidebar";
 
 function App() {
   return (
-    <div className="app">
+    <div className="flex">
       <Sidebar />
-      Dashboard UI
+     <Navbar />
     </div>
   );
 }

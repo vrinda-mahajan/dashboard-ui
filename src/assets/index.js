@@ -1,3 +1,3 @@
 import logo from "./logo.png";
-
-export { logo };
+import find from "./find.png"
+export { logo, find };
