@@ -5,18 +5,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-}
 body {
   font-family: "Inter", sans-serif;
-}
-:root {
-  --COLOR-PRIMARY: #353C53;
-  --COLOR-SECONDARY: #146EB4;
-  --COLOR-BACKGROUND: #fafafa;
-  --COLOR-GRAY-1: #808080;
-  --COLOR-GRAY-2: #F2F2F2;
-  --COLOR-WHITE: #FFFFFF;
 }
