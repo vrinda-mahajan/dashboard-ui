@@ -3,7 +3,7 @@ import { arrowfDown, question, speaker } from "../assets/icons/navbar";
 
 function Navbar() {
   return (
-    <div className="flex gap-4 justify-between items-center py-[21px] w-3/4 h-16 border-solid border-b-[1px] border-color-gray-1 px-8">
+    <div className="flex gap-4 justify-between items-center py-[21px] h-16 border-solid border-b-[1px] border-color-gray-1 px-8">
       <div className="flex justify-center items-center">
         <p className="text-[15px] text-color-text-1 mr-4">Payments</p>
         <span className="flex text-xs text-color-text-2">
