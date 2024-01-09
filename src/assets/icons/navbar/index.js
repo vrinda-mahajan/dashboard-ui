@@ -1,5 +1,5 @@
-import arrowfDown from "./arrowf-down.png";
-import question from "./question.png";
-import speaker from "./speaker.png";
+import arrowfDown from "./arrowf-down.svg";
+import question from "./question.svg";
+import speaker from "./speaker.svg";
 
 export { arrowfDown, question, speaker };

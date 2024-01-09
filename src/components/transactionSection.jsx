@@ -1,5 +1,5 @@
 import { find } from "../assets";
-import { arrowbLeft, arrowbRight, download, info, sort } from "../assets/icons/transaction";
+import { arrowbLeft, arrowbRight, chevronDown, download, info, sort } from "../assets/icons/transaction";
 
 function TransactionSection() {
   return (
@@ -49,7 +49,11 @@ function TransactionSection() {
               Order ID
             </th>
             <th className="font-medium text-left w-1/4 px-3 py-[10px]">
-              Order date
+              
+              <span className="relative pr-6">
+              Order date 
+              <img className="absolute right-0 top-1/2 transform -translate-x-1/2 -translate-y-1/2" src={chevronDown} alt="chevronDown" />
+              </span>
             </th>
             <th className="font-medium text-right w-1/4 px-3 py-[10px]">
               Order amount

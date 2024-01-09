@@ -37,7 +37,7 @@ function Sidebar() {
       <div>
         <div className="flex mb-6 justify-between">
           <div className="flex">
-            <img className="object-none rounded mr-3" src={logo} alt="logo" />
+            <img className="object-none rounded mr-3 w-[39px] h-[39px]" src={logo} alt="logo" />
             <div className="mr-3">
               <h5 className="font-medium text-[15px]">Nishyan</h5>
               <p className="underline underline-offset-2 text-[13px]">
@@ -45,7 +45,7 @@ function Sidebar() {
               </p>
             </div>
           </div>
-          <img className="object-none mr-2" src={arrowDown} alt="arrowDown" />
+          <img className="object-none mr-2 cursor-pointer" src={arrowDown} alt="arrowDown" />
         </div>
         <div>
           <ul className="">
@@ -53,7 +53,7 @@ function Sidebar() {
               return (
                 <li
                   key={index}
-                  className="flex h-9 items-center ml-4 mx-2 text-sm"
+                  className="flex h-9 items-center px-4 text-sm hover:bg-[#343c53] rounded"
                 >
                   <img
                     className="object-none mr-3"

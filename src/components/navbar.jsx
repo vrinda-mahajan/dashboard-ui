@@ -22,10 +22,10 @@ function Navbar() {
         />
       </div>
       <div className="flex space-x-3">
-        <div className="bg-color-gray-2 rounded-full flex justify-center items-center p-[10px] h-10 w-10">
+        <div className="cursor-pointer bg-color-gray-2 rounded-full flex justify-center items-center p-[10px] h-10 w-10">
           <img src={speaker} alt="speaker" />
         </div>
-        <div className="bg-color-gray-2 rounded-full flex justify-center items-center p-[10px] h-10 w-10">
+        <div className="cursor-pointer bg-color-gray-2 rounded-full flex justify-center items-center p-[10px] h-10 w-10">
           <img src={arrowfDown} alt="arrowDown" />
         </div>
       </div>

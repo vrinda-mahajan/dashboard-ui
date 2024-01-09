@@ -1,4 +1,3 @@
-import logo from "./logo.png";
-import find from "./find.png"
-import arrowbDown from "./arrowb-down.png"
-export { logo, find,arrowbDown };
+import logo from "./logo.svg";
+import find from "./find.svg";
+export { logo, find };

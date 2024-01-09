@@ -1,17 +1,17 @@
-import arrowDown from "./arrow-down.png";
-import home from "./home.png";
-import orders from "./orders.png";
-import products from "./products.png";
-import delivery from "./delivery.png";
-import marketing from "./marketing.png";
-import analytics from "./analytics.png";
-import payments from "./payments.png";
-import tools from "./tools.png";
-import discounts from "./discounts.png";
-import audience from "./audience.png";
-import apperance from "./apperance.png";
-import plugins from "./plugins.png";
-import credits from "./credits.png";
+import arrowDown from "./arrow-down.svg";
+import home from "./home.svg";
+import orders from "./orders.svg";
+import products from "./products.svg";
+import delivery from "./delivery.svg";
+import marketing from "./marketing.svg";
+import analytics from "./analytics.svg";
+import payments from "./payments.svg";
+import tools from "./tools.svg";
+import discounts from "./discounts.svg";
+import audience from "./audience.svg";
+import apperance from "./apperance.svg";
+import plugins from "./plugins.svg";
+import credits from "./credit.svg";
 
 export {
   arrowDown,
