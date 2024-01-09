@@ -1,10 +1,10 @@
-import { arrowbDown } from "../assets";
+import { arrowbDown } from "../assets/icons/transaction";
 
 function OverviewSection() {
   return (
     <div className="flex-col mb-8">
       <div className="flex justify-between mb-6">
-        <h2 className="font-medium text-xl">Overview</h2>
+        <h2 className="font-medium text-xl text-color-text-1">Overview</h2>
         <button class="text-color-text-2 bg-color-white rounded px-[14px] py-[6px] text-center border border-color-gray-3">
           Last Month{" "}
           <img

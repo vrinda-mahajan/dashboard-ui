@@ -33,7 +33,7 @@ const sidebarItemsData = [
 
 function Sidebar() {
   return (
-    <div className="bg-color-primary text-color-white sticky top-0 overflow-y-auto scrollbar-hidden px-2 py-4 flex flex-col justify-between w-1/4 h-screen">
+    <div className="bg-color-primary text-color-white sticky top-0 overflow-y-auto scrollbar-hidden px-2 py-4 flex flex-col justify-between w-1/6 h-screen">
       <div>
         <div className="flex mb-6 justify-between">
           <div className="flex">
