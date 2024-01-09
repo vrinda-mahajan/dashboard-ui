@@ -3,7 +3,7 @@ import { arrowfDown, question, speaker } from "../assets/icons/navbar";
 
 function Navbar() {
   return (
-    <div className="sticky top-0 bg-color-white z-50 flex gap-4 justify-between items-center py-[21px] h-16 border-solid border-b-[1px] border-color-gray-3 px-8">
+    <div className="sticky top-0 bg-color-white z-50 flex gap-4 justify-between items-center py-[21px] h-16 border-solid border-b-[1px] border-color-gray-3 px-8 max-sm:px-4">
       <div className="flex justify-center items-center">
         <p className="text-[15px] text-color-text-1 mr-4">Payments</p>
         <span className="flex text-xs text-color-text-2">
@@ -11,7 +11,7 @@ function Navbar() {
           <span>How it works</span>
         </span>
       </div>
-      <div className="relative flex flex-grow max-w-[400px]">
+      <div className="relative flex flex-grow max-w-[400px] max-sm:hidden">
         <div class="absolute inset-y-0 start-0 flex items-center ps-4 pe-2">
           <img src={find} alt="find" />
         </div>

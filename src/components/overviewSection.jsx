@@ -15,13 +15,13 @@ function OverviewSection() {
         </button>
       </div>
       <div className="flex gap-5">
-        <div className="flex-col w-1/2 rounded-lg p-5 bg-color-white">
-          <p className="text-color-text-2 mb-4">Online orders</p>
-          <h3 className="text-color-text-1 text-[32px] font-medium">231</h3>
+        <div className="flex-col w-1/2 rounded-lg p-5 bg-color-white shadow-sm">
+          <p className="text-color-text-2 mb-4 max-sm:text-sm">Online orders</p>
+          <h3 className="text-color-text-1 text-[32px] max-sm:text-[18px] font-medium">231</h3>
         </div>
-        <div className="flex-col w-1/2 rounded-lg p-5 bg-color-white">
-          <p className="text-color-text-2 mb-4">Amount received</p>
-          <h3 className="text-color-text-1 text-[32px] font-medium">
+        <div className="flex-col w-1/2 rounded-lg p-5 bg-color-white shadow-sm">
+          <p className="text-color-text-2 mb-4 max-sm:text-sm">Amount received</p>
+          <h3 className="text-color-text-1 text-[32px] max-sm:text-[18px] font-medium">
             23,92,312.19
           </h3>
         </div>

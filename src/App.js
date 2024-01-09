@@ -10,7 +10,7 @@ function App() {
       <Sidebar />
       <main className="flex-col bg-color-background w-5/6">
         <Navbar />
-        <section className="p-8">
+        <section className="p-8 max-sm:p-3">
           <OverviewSection />
           <TransactionSection />
         </section>

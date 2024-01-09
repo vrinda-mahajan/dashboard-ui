@@ -13,6 +13,9 @@ module.exports = {
         "color-text-1": "#1A181E",
         "color-text-2": "#4D4D4D",
       },
+      boxShadow: {
+        'sm': '0 2px 6px 0 rgb(26 24 30 / 4%)',
+      }
     },
   },
   plugins: [],

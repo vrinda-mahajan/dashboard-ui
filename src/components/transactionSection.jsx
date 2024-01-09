@@ -12,9 +12,9 @@ function TransactionSection() {
           This Month
         </span>
       </h2>
-      <div className="p-3 bg-color-white rounded-md">
+      <div className="p-3 bg-color-white rounded-md shadow-sm">
         <div className="flex justify-between mb-3">
-          <div className="relative flex flex-grow max-w-[250px]">
+          <div className="relative flex flex-grow max-w-[250px] max-sm:max-w-[38px]">
             <div class="absolute inset-y-0 start-0 flex items-center ps-4 pe-2">
               <img src={find} alt="find" />
             </div>
@@ -43,8 +43,8 @@ function TransactionSection() {
           </div>
         </div>
 
-        <table className="rounded w-full ">
-          <thead className="text-[14px] mr-3 bg-color-gray-2 text-color-text-2">
+        <table className="rounded w-full">
+          <thead className="text-[14px] max-sm:text-[10px] mr-3 bg-color-gray-2 text-color-text-2">
             <th className="font-medium text-left w-1/4 px-3 py-[10px]">
               Order ID
             </th>
@@ -52,7 +52,7 @@ function TransactionSection() {
               
               <span className="relative pr-6">
               Order date 
-              <img className="absolute right-0 top-1/2 transform -translate-x-1/2 -translate-y-1/2" src={chevronDown} alt="chevronDown" />
+              <img className="max-sm:hidden absolute right-0 top-1/2 transform -translate-x-1/2 -translate-y-1/2" src={chevronDown} alt="chevronDown" />
               </span>
             </th>
             <th className="font-medium text-right w-1/4 px-3 py-[10px]">
@@ -61,7 +61,7 @@ function TransactionSection() {
             <th className="font-medium text-right w-1/4 px-3 py-[10px]">
               <span className="relative pr-6">
                 Transaction fees 
-              <img className="absolute right-0 top-1/2 transform -translate-x-1/2 -translate-y-1/2" src={info} alt="info" />
+              <img className="max-sm:hidden absolute right-0 top-1/2 transform -translate-x-1/2 -translate-y-1/2" src={info} alt="info" />
               </span>
             </th>
           </thead>
@@ -84,10 +84,10 @@ function TransactionSection() {
         </table>
         <ul class="flex justify-center text-sm mt-6 mb-3">
             <li>
-            <button class="text-color-text-2 bg-color-white rounded px-[14px] py-[6px] text-center border border-color-gray-3 mr-6">
-              Previous{" "}
+            <button class="text-color-text-2 bg-color-white rounded px-[14px] max-sm:px-3 py-[6px] text-center border border-color-gray-3 mr-6">
+            <span className="max-sm:hidden">Previous</span>
               <img
-                className="object-none inline ml-[9px]"
+                className="object-none inline ml-[9px] max-sm:ml-0"
                 src={arrowbLeft}
                 alt="arrowbLeft"
               />
@@ -100,17 +100,17 @@ function TransactionSection() {
                 <button className="text-color-text-2 bg-color-white rounded  px-[6px] py-[4px]  text-center">...</button>
             </li>
             <li className="mr-1">
-                <button className="text-color-white bg-color-secondary rounded px-[6px] py-[4px] text-center">10</button>
+                <button className="text-color-white bg-color-secondary rounded px-[6px] py-[4px] text-center">14</button>
             </li>
-            {[11,12,13,14,15,16,17,18].map((page)=>
+            {[15,16,17,18].map((page)=>
             <li className="mr-1">
                 <button className="text-color-text-2 bg-color-white rounded  px-[6px] py-[4px]  text-center">{page}</button>
             </li>)}
             <li>
-            <button class="text-color-text-2 bg-color-white rounded px-[14px] py-[6px] text-center border border-color-gray-3 ml-6">
-              Next{" "}
+            <button class="text-color-text-2 bg-color-white rounded px-[14px] max-sm:px-3 py-[6px] text-center border border-color-gray-3 ml-6">
+              <span className="max-sm:hidden">Next</span>
               <img
-                className="object-none inline ml-[9px]"
+                className="object-none inline ml-[9px]  max-sm:ml-0"
                 src={arrowbRight}
                 alt="arrowbRight"
               />

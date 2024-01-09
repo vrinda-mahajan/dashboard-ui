@@ -37,30 +37,38 @@ function Sidebar() {
       <div>
         <div className="flex mb-6 justify-between">
           <div className="flex">
-            <img className="object-none rounded mr-3 w-[39px] h-[39px]" src={logo} alt="logo" />
-            <div className="mr-3">
+            <img
+              className="object-none rounded mr-3 w-[39px] h-[39px]"
+              src={logo}
+              alt="logo"
+            />
+            <div className="max-sm:hidden">
               <h5 className="font-medium text-[15px]">Nishyan</h5>
               <p className="underline underline-offset-2 text-[13px]">
                 Visit store
               </p>
             </div>
           </div>
-          <img className="object-none mr-2 cursor-pointer" src={arrowDown} alt="arrowDown" />
+          <img
+            className="ml-3 object-none mr-2 max-sm:mr-0 cursor-pointer"
+            src={arrowDown}
+            alt="arrowDown"
+          />
         </div>
         <div>
-          <ul className="">
+          <ul>
             {sidebarItemsData.map(({ itemName, itemIcon }, index) => {
               return (
                 <li
                   key={index}
-                  className="flex h-9 items-center px-4 text-sm hover:bg-[#343c53] rounded"
+                  className="flex h-9 max-sm:h-12 items-center px-4 text-sm hover:bg-[#343c53] rounded"
                 >
                   <img
                     className="object-none mr-3"
                     src={itemIcon}
                     alt={itemName}
                   />
-                  <p>{itemName}</p>
+                  <p className="max-sm:hidden">{itemName}</p>
                 </li>
               );
             })}
@@ -69,11 +77,11 @@ function Sidebar() {
       </div>
       <div className="rounded bg-[#353c53]">
         <div className="mx-3 my-[9px] flex">
-        <img className="object-none mr-3" src={credits} alt="credits" />
-        <div>
-          <span className="text-[13px]">Available credits</span>
-          <p className="font-medium">222.10</p>
-        </div>
+          <img className="object-none mr-3" src={credits} alt="credits" />
+          <div className="max-sm:hidden">
+            <span className="text-[13px]">Available credits</span>
+            <p className="font-medium">222.10</p>
+          </div>
         </div>
       </div>
     </div>
